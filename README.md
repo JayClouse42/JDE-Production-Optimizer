@@ -2,7 +2,7 @@
 Flag ship Ophidian Mechanics Production Planning Optimization with Schlangenkraft Engine
 Code name: Frobozz Magic OP
 
-[listen to Lambda-Chan's song](https://suno.com/song/8d809306-def7-440b-8df2-e4c05ba2c881)
+[listen to Lambda-Chan's song](https://www.youtube.com/watch?v=NvzGXr3trZs)
 
 [Demo on Youtube](https://www.youtube.com/watch?v=H19CVI6TE-Q)
 
