@@ -8,7 +8,7 @@ Code name: Frobozz Magic OP
 
 A production-feasibility optimizer for JD Edwards — powered by the OP-1 Schlangenkraft engine.
 
-Turn a 90 day range ERP snapshot into an honest, constraint-respecting production plan — and see exactly *why* every work order can or can't run.
+Turn a single day's ERP snapshot into an honest, constraint-respecting production plan — and see exactly *why* every work order can or can't run.
 
 > **Portfolio demo.** This repository hosts a runnable, offline build that ships with a fully **de-identified** dataset — every item, work order, and description is replaced with a generic placeholder, so no real names or numbers are exposed. No database, no credentials, nothing to install. It exists to show the tool end-to-end. The engine source is kept private.
 
@@ -38,8 +38,13 @@ The output is a feasible plan plus a full, honest explanation of every shortfall
 
 Download the demo build from the **Releases** page and run it — no install, no database, no credentials.
 
-- **Option 2** opens the interactive viewer — it launches your browser automatically at **http://localhost:8766** and loads the full solved plan (with every identifier already scrubbed).
-- **Option 3** re-runs the solver on a self-contained synthetic universe, so you can watch the engine work end-to-end.
+At the menu, choose **Option 2 — the viewer**. It launches your browser automatically at **http://localhost:8766** and loads the full solved plan, with every identifier already scrubbed. The demo comes ready-solved: there's nothing to generate and nothing to configure.
+
+> ⚠️ **Use Option 2 only — do not run Option 1 or Option 3.**
+> - **Option 1** runs the optimizer against **live Snowflake** and needs credentials this demo doesn't ship.
+> - **Option 3** runs the optimizer on offline data and **overwrites the plan — it will destroy the bundled demo dataset.**
+>
+> The demo is already solved. You never need to run the engine — just open the viewer.
 
 The demo dataset carries a complete universe — finished goods, multi-level WIP, raws, packaging, plants, and dated lots — engineered to exercise every feature, with all identifiers de-identified.
 
@@ -81,7 +86,6 @@ Python · NumPy / SciPy · pandas · NetworkX + python-louvain for the network-a
 Pre-release demo — not production-ready. Built for a real production-planning team running JD Edwards on Snowflake; this public build runs entirely on de-identified data, so numbers and item names are placeholders. Live data surfaces edge cases the demo won't.
 
 Frobozz and the general aura of interactive-fiction magic are affectionate homages to the classic text adventures. No grues were harmed.
-
 
 Status & disclaimer
 Pre‑release demo — not production‑ready. Built for a real production‑planning team running JD Edwards on Snowflake; this public build runs entirely on synthetic data, so numbers and item names are invented. Live data surfaces edge cases the demo won't.
