@@ -79,7 +79,7 @@ Powered by the **Schlangenkraft** engine under **Ophidian Mechanics**. A proprie
 
 ## Tech stack
 
-Python · NumPy / SciPy · pandas · NetworkX + python-louvain for the network-analysis layer · a custom Phoenix Tempering selector and Schlangenkraft engine pricer · Flask graph API · a self-contained HTML5 Canvas viewer · Snowflake connector (live mode) · packaged to a single Windows `.exe` with PyInstaller.
+Python · NumPy / SciPy · pandas · NetworkX + python-louvain for the network-analysis layer · a custom Schlangenkraft engine with Umbra-Rattler · Flask graph API · a self-contained HTML5 Canvas viewer · Snowflake connector (live mode) · packaged to a single Windows `.exe` with PyInstaller.
 
 ## Status & disclaimer
 
