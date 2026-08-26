@@ -4,6 +4,8 @@ Code name: Frobozz Magic OP
 
 [listen to Lambda-Chan's song](https://www.youtube.com/watch?v=NvzGXr3trZs)
 
+[This is an Advertisement for A&M](https://www.youtube.com/shorts/FTsQUI1znSc)
+
 [Demo on Youtube](https://www.youtube.com/watch?v=H19CVI6TE-Q)
 
 A production-feasibility optimizer for JD Edwards — powered by the OP-1 Schlangenkraft engine.
