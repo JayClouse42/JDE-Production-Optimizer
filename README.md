@@ -2,10 +2,6 @@
 Flag ship Ophidian Mechanics Production Planning Optimization with Schlangenkraft Engine
 Code name: Frobozz Magic OP
 
-[listen to Lambda-Chan's song](https://www.youtube.com/watch?v=NvzGXr3trZs)
-
-[This is an Advertisement for A&M](https://www.youtube.com/shorts/FTsQUI1znSc)
-
 [Demo on Youtube](https://www.youtube.com/watch?v=H19CVI6TE-Q)
 
 A production-feasibility optimizer for JD Edwards — powered by the OP-1 Schlangenkraft engine.
@@ -88,6 +84,10 @@ Python · NumPy / SciPy · pandas · NetworkX + python-louvain for the network-a
 Pre-release demo — not production-ready. Built for a real production-planning team running JD Edwards on Snowflake; this public build runs entirely on de-identified data, so numbers and item names are placeholders. Live data surfaces edge cases the demo won't.
 
 Frobozz and the general aura of interactive-fiction magic are affectionate homages to the classic text adventures. No grues were harmed.
+
+[listen to Lambda-Chan's song](https://www.youtube.com/watch?v=NvzGXr3trZs)
+
+[This is an Advertisement for A&M](https://www.youtube.com/shorts/FTsQUI1znSc)
 
 Status & disclaimer
 Pre‑release demo — not production‑ready. Built for a real production‑planning team running JD Edwards on Snowflake; this public build runs entirely on synthetic data, so numbers and item names are invented. Live data surfaces edge cases the demo won't.
