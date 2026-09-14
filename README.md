@@ -32,19 +32,9 @@ Frobozz reads a read-only snapshot (JD Edwards via Snowflake), explodes every bi
 
 The output is a feasible plan plus a full, honest explanation of every shortfall.
 
-## ▶️ Try the demo (Windows)
-
-Download the demo build from the **Releases** page and run it — no install, no database, no credentials.
-
-At the menu, choose **Option 2 — the viewer**. It launches your browser automatically at **http://localhost:8766** and loads the full solved plan, with every identifier already scrubbed. The demo comes ready-solved: there's nothing to generate and nothing to configure.
-
-> ⚠️ **Use Option 2 only — do not run Option 1 or Option 3.**
-> - **Option 1** runs the optimizer against **live Snowflake** and needs credentials this demo doesn't ship.
-> - **Option 3** runs the optimizer on offline data and **overwrites the plan — it will destroy the bundled demo dataset.**
->
-> The demo is already solved. You never need to run the engine — just open the viewer.
-
-The demo dataset carries a complete universe — finished goods, multi-level WIP, raws, packaging, plants, and dated lots — engineered to exercise every feature, with all identifiers de-identified.
+## For Security reasons, Releases are unavailable at this time. 
+To schedule a live demo,
+Please contact: Clousejay@Gmail.com 
 
 ## Features
 
