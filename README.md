@@ -1,3 +1,6 @@
+## [▶ Launch the live demo](https://jayclouse42.github.io/JDE-Production-Optimizer/)
+
+
 # Production Planning Network Flow Optimizer
 
 **A constraint-based planning engine that turns a tangle of orders, inventory, and lead times into an executable production plan — and, crucially, explains *why* every shortfall happens and the single best action to fix it.**
