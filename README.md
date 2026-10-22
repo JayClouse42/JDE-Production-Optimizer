@@ -1,4 +1,4 @@
-## [▶ Launch the live demo](https://jayclouse42.github.io/JDE-Production-Optimizer/)
+## [▶ Launch the interactive demo](https://jayclouse42.github.io/JDE-Production-Optimizer/)
 
 
 # Production Planning Network Flow Optimizer
