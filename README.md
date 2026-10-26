@@ -12,12 +12,13 @@
 ## The problem it solves
 
 Manufacturers run on MRP systems that explode a bill of materials and tell you *what* you're short — but not *why*, and not *what to do about it*. When a plan comes back at 73% fill, a planner is left to reverse-engineer the cause by hand across thousands of work orders, shared ingredients, purchase orders, and expiration dates. So they stop trusting the system and fall back on spreadsheets and gut feel.
+The Components in stock are shared over many finished products that are sold, and each product uses different lists of components and qty in its recipe called the Bill of Materials or BOM. When there is scarcity of some components the whole all finished products that use that component are pulling on it with different pressure. The component qty is divisible into units so we don't have to give 100% to the highest pressure, but can share it. The question then becomes how much pressure does each Finished good demand produce. The calculation is non-linear and also not consisted over time as demands fill as POs are received, and sub-assembly productions fill, the supply to demand rations and thus the pressures fluctuate.
 
 This engine was built to close that gap: produce a demand-prioritized, feasibility-aware plan **and** make it legible enough that a planner trusts it instead of overriding it.
 
 ## What it does
 
-- **Multi-level BOM explosion with shared-component contention.** Resolves finished goods down through every sub-assembly and raw material, correctly handling ingredients that multiple products compete for.
+- **Multi-level (Bill of Materials) BOM explosion with shared-component contention.** Resolves finished goods down through every sub-assembly and raw material, correctly handling ingredients that multiple products compete for.
 - **Time-phased feasibility.** Respects on-hand inventory, dated purchase-order and work-order arrivals, lead times, batch sizes, and lot expiration (FEFO) across a rolling 90-day horizon.
 - **Demand-prioritized allocation.** When supply can't cover everything, it allocates by a tunable demand priority (firm orders → safety stock → forecast) instead of first-come-first-served.
 - **Plain-language diagnostics — the core differentiator.** For every shortfall it identifies the *specific* root cause (no supply, out-competed by a higher-priority order, a purchase order that's too small or too late, product that expires before it can be used) and names the single most effective corrective action.
