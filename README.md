@@ -93,6 +93,6 @@ This is a personal project and a working proof of concept, validated on syntheti
 
 ## About
 
-Built by **Jay Clouse** — supply chain analyst with ~10 years in manufacturing and distribution operations, ERP (JD Edwards, SAP), and applied optimization. The aim of this project: bring rigorous, proven planning methods into a field that still largely runs on spreadsheets — carefully, and legibly enough to earn a planner's trust.
+Built by [**Jay Clouse**](https://www.linkedin.com/in/jay-clouse-76b0a460/) — supply chain analyst with ~10 years in manufacturing and distribution operations, ERP (JD Edwards, SAP), and applied optimization. The aim of this project: bring rigorous, proven planning methods into a field that still largely runs on spreadsheets — carefully, and legibly enough to earn a planner's trust.
 
 📫 clousejay@gmail.com
