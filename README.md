@@ -11,10 +11,15 @@
 
 ## The problem it solves
 
-Manufacturers run on MRP systems that explode a bill of materials and tell you *what* you're short — but not *why*, and not *what to do about it*. When a plan comes back at 73% fill, a planner is left to reverse-engineer the cause by hand across thousands of work orders, shared ingredients, purchase orders, and expiration dates. So they stop trusting the system and fall back on spreadsheets and gut feel.
-The Components in stock are shared over many finished products that are sold, and each product uses different lists of components and qty in its recipe called the Bill of Materials or BOM. When there is scarcity of some components the whole all finished products that use that component are pulling on it with different pressure. The component qty is divisible into units so we don't have to give 100% to the highest pressure, but can share it. The question then becomes how much pressure does each Finished good demand produce. The calculation is non-linear and also not consisted over time as demands fill as POs are received, and sub-assembly productions fill, the supply to demand rations and thus the pressures fluctuate over time. The mathematics of this engine take all of that into account and discern how much supply every production order will pull in order to maximize the demand fill. 
+Manufacturers run on MRP. It explodes the BOM and tells you what you're short — but not why, and not what to do about it. When the plan comes back at 73% fill, the planner has to reverse-engineer the cause by hand across thousands of work orders, shared components, POs, and expirations. So they stop trusting the system and go back to spreadsheets.
 
-This engine was built to close that gap: produce a demand-prioritized, feasibility-aware plan **and** make it legible enough that a planner trusts it instead of overriding it.
+The reality is, the same components are shared across many finished goods, and each finished good has a different BOM and quantity. When a component is scarce, every finished good that needs it is pulling on that same inventory — with different urgency.
+
+Because component quantity is divisible, you don't have to give 100% to the highest priority order. You can share it. The real question is: how should you share it to maximize overall demand fill?
+
+That calculation isn't simple. It's not linear, and it's not static. As POs arrive and sub-assemblies complete, supply changes, demand coverage changes, and priorities shift.
+
+This engine was built to close that gap. It takes all of that into account — shared supply, competing demand, receipts over time, expirations — and calculates how much supply each production order should pull to maximize fill. It produces a demand-prioritized, feasible plan and shows its work so a planner can trust it instead of overriding it.
 
 ## What it does
 
